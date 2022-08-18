@@ -1,0 +1,32 @@
+/* style.css */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+}
+
+.middle.one {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.middle.one.left-text,
+.middle.one.image {
+  flex: 1
+}
+
+.middle.three {
+  background-color: #E5E7EB;
+}
