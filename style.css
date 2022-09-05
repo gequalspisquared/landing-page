@@ -2,10 +2,19 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
+  height: 100vh;
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  flex: 1 0 0
 }
 
 .header,
-.sec1 {
+.sec1,
+.footer {
   background-color: #1F2937;
   color: #F9FAF8;
 }
@@ -119,6 +128,7 @@ img {
 .caption {
   width: 140px;
   text-align: center;
+  padding-top: 5px;
   padding-bottom: 50px;
 }
 
@@ -143,4 +153,49 @@ img {
 .quote-author {
   padding-bottom: 100px;
   text-align: right;
+}
+
+.sec4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec4 .container {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  gap: 200px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 50px;
+}
+
+.call {
+  color: #F9FAF8;
+}
+
+.call .top-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call .bot-text {
+  font-size: 18px;
+}
+
+.sign-up2 {
+  border: 2px solid;
+  border-color: #F9FAF8;
+  border-radius: 5px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
